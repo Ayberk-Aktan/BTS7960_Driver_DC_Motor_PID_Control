@@ -1,0 +1,17 @@
+# Proteus Yedekleri ve Gereksizleri
+Project Backups/
+*.pdsbak
+*.dbk
+*.pwi
+*.pws
+*.log
+*.txt
+
+# Arduino Derleme Dosyaları
+**/build/
+*.hex
+*.elf
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
