@@ -1,5 +1,6 @@
-# Proteus Yedekleri ve Gereksizleri
+# Proteus Yedekleri ve Çalışma Alanı
 Project Backups/
+*.workspace
 *.pdsbak
 *.dbk
 *.pwi
@@ -7,14 +8,7 @@ Project Backups/
 *.log
 *.txt
 
-# Arduino Derleme Dosyaları
+# Arduino Derleme Çıktıları
 **/build/
 *.hex
 *.elf
-
-# Sistem Dosyaları
-.DS_Store
-Thumbs.db
-
-# Proteus Workspace dosyaları
-*.pws
