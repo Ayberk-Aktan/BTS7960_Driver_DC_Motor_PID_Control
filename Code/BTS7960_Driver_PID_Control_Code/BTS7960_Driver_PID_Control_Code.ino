@@ -16,6 +16,9 @@ void setup() {
   pinMode(LPWM,OUTPUT);
   pinMode(RPWM,OUTPUT);
 
+  pinMode(ENCA,INPUT_PULLUP);
+  pinMode(ENCB,INPUT_PULLUP);
+
   digitalWrite(LEN, HIGH);
   digitalWrite(REN, HIGH);
 
