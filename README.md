@@ -28,7 +28,7 @@
 <h4>🚀 Kurulum ve Çalıştırma</h4>
 <ol>
   <li><b>Depoyu Klonlayın:</b> 
-    <code>git clone https://github.com/ayberkaktan/BTS7960-PID-Control.git</code>
+    <code>git clone https://github.com/Ayberk-Aktan/BTS7960_Driver_DC_Motor_PID_Control.git</code>
   </li>
   <li><b>Arduino IDE Hazırlığı:</b> 
     <ul>
