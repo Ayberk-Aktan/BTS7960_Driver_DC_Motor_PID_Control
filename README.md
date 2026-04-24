@@ -4,12 +4,13 @@
 <p>
   Bu projenin amacı BTS7960 Motor sürücüsünü P kanal IRF5305, N kanal IRFZ44N ve anahtarlama elemanı olarak BC547 transistörlerini kullanarak H-Bridge yapısıyla 
   yeniden tasarlamaktır. Tasarlanan sürücüyü bir encodere sahip olan DC motoru PID Kontrol algoritmasıyla kontrol etmektir. Simülasyon ve tasarım programı olarak 
-  Proteus kullanılmıştır. Yazılım bölümünde ise mikrodenetleyici olarak Arduino Uno ve IDE ortamı olarak Arduino IDE kullanılmıştır.
+  Proteus kullanılmıştır. Motorun matematiksel modellemesi içinse MATLAB/Simulink kullanılmıştır. Yazılım bölümünde ise mikrodenetleyici olarak Arduino Uno ve IDE ortamı olarak Arduino IDE kullanılmıştır.
 </p>
 <hr>
 <h4>🛠️ Kullanılan Araçlar ve Programlar</h4>
 <ul>
   <li>🔬 <b>Simülasyon ve Tasarım:</b> Proteus 8.16</li>
+  <li>📐 <b>Matematiksel Modelleme:</b> MATLAB/Simulink</li>
   <li>💻 <b>Tümleşik Geliştirme Ortamı (IDE):</b> Arduino IDE</li>
 </ul>
 <hr>
@@ -45,6 +46,10 @@
     </ul>
   </li>
   <li><b>Simülasyonu Başlatın:</b> Sol alttaki "Play" butonuna basarak simülasyonu çalıştırın.</li>
+  <li>
+      <b>💡 MATLAB/Simulink Notu:</b> 
+      <i>PID katsayılarının analizi ve sistem cevabı için <code>Simulink_Models</code> klasöründeki <code>.slx</code> dosyasını MATLAB ile açabilirsiniz.</i>
+  </li>
 </ol>
 <hr>
 <h4>⚖️ Lisans</h4> 
