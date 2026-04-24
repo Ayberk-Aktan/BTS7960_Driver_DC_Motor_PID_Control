@@ -63,9 +63,8 @@ void loop() {
 
   int pwr = abs(u); 
   
-  // 255 => 24V , 127 => 12V for motors nominal voltage
-  if(pwr > 127){
-    pwr = 127;
+  if(pwr > 255){
+    pwr = 255;
   }
 
   int dir = 1;
